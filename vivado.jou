@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Feb 10 12:15:07 2022
+# Process ID: 1868
+# Current directory: D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28304 D:\School\CalPoly\Undergrad\Engineering\Computer_Engineering\CPE233\MusicPlayer\233ChristmasMusicPlayer\OTTER233.xpr
+# Log file: D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer/vivado.log
+# Journal file: D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer/OTTER233.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer/OTTER_WRAPPER_SIM_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer/OTTER_WRAPPER_SIM_behav.wcfg
+export_ip_user_files -of_objects  [get_files D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/HW/FINAL/233FinalProject.mem] -no_script -reset -force -quiet
+remove_files  D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/HW/FINAL/233FinalProject.mem
+add_files -norecurse D:/School/CalPoly/Undergrad/Engineering/Computer_Engineering/CPE233/MusicPlayer/233ChristmasMusicPlayer/233FinalProject.mem
